@@ -1,3 +1,3 @@
-# CodelabIT4785Q
+# Codelab môn Lập trình di động
 
 Các codelab ở các branch.
