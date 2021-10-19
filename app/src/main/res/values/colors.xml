@@ -14,4 +14,7 @@
     <color name="backgroundPrimary">#FF36393F</color>
     <color name="backgroundSecondary">#FF2F3136</color>
     <color name="backgroundTertiary">#FF202225</color>
+
+    <color name="gray">#FFAAAAAA</color>
+    <color name="green">#FF3BA55D</color>
 </resources>
