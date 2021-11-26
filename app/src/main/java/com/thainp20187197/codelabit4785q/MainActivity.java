@@ -4,28 +4,28 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
-    private int mCount = 0;
-    private TextView mShowCount;
+
+    List<ItemModel> items;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mShowCount = findViewById(R.id.show_count);
-    }
+        ListView listView = findViewById(R.id.list_view);
 
-    public void showToast(View view) {
-        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
-        toast.show();
-    }
+        items = new ArrayList<>();
+        for (int i = 0; i < 10; i++)
+            items.add(new ItemModel("Email " + (i + 1), "This is description."));
 
-    public void countUp(View view) {
-        mCount++;
-        if (mShowCount != null)
-            mShowCount.setText(Integer.toString(mCount));
+        ItemAdapter adapter = new ItemAdapter(items);
+        listView.setAdapter(adapter);
     }
 }
