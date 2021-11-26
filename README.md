@@ -1,3 +1,5 @@
-# Codelab môn Lập trình di động
+# CodelabIT4785Q
 
-Các codelab ở các branch.
+<img src=results/result1.png style="height: 40%; width: 40%;" />
+<img src=results/result2.png style="height: 40%; width: 40%;" />
+<img src=results/result3.png style="height: 40%; width: 40%;" />
