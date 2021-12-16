@@ -3,19 +3,12 @@ package com.thainp20187197.codelabit4785q;
 public class ItemModel {
     private String title;
     private String description;
-    private int imageAvatar;
+    private int imageAvatar = R.drawable.ic_launcher_foreground;
     private boolean favorite = false;
 
     public ItemModel(String title, String description) {
         this.title = title;
         this.description = description;
-        this.imageAvatar = R.drawable.ic_launcher_foreground;
-    }
-
-    public ItemModel(String title, String description, int imageAvatar) {
-        this.title = title;
-        this.description = description;
-        this.imageAvatar = imageAvatar;
     }
 
     public String getTitle() {

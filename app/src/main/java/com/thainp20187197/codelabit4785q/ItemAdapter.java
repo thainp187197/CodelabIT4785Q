@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -39,7 +40,7 @@ public class ItemAdapter extends BaseAdapter {
         ImageView imageAvatar = itemView.findViewById(R.id.image_avatar);
         TextView textTitle = itemView.findViewById(R.id.text_title);
         TextView textDescription = itemView.findViewById(R.id.text_description);
-        ImageView imageFavorite = itemView.findViewById(R.id.image_favorite);
+        ImageButton imageFavorite = itemView.findViewById(R.id.image_favorite);
 
         ItemModel item = items.get(position);
 
@@ -52,6 +53,11 @@ public class ItemAdapter extends BaseAdapter {
             imageFavorite.setImageResource(R.drawable.ic_baseline_star_border_24);
         }
 
-        return null;
+        imageFavorite.setOnClickListener(v -> {
+            item.setFavorite(!item.isFavorite());
+            notifyDataSetChanged();
+        });
+
+        return itemView;
     }
 }

@@ -1,3 +1,3 @@
-# Codelab môn Lập trình di động
+# BTVN 10/12/2021
 
-Các codelab ở các branch.
+<img src=results/result.png style="height: 40%; width: 40%;" />
