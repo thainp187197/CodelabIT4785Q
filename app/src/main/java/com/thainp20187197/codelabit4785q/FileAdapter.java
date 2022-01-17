@@ -7,18 +7,22 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 public class FileAdapter extends BaseAdapter {
-    private List<File> files;
+    private List<File> files = new ArrayList<>();
 
-    public FileAdapter(List<File> files) {
-        this.files = files;
+    public void newList(List<File> files) {
+        this.files.clear();
+        this.files.add(null);
+        this.files.addAll(files);
+        notifyDataSetChanged();
     }
 
     @Override
     public int getCount() {
-        return files.size() + 1;
+        return files.size();
     }
 
     @Override
@@ -45,7 +49,6 @@ public class FileAdapter extends BaseAdapter {
             fileTypeIV.setImageResource(R.drawable.ic_baseline_parent_folder_24);
             fileNameTV.setText("..");
         } else {
-            position--;
             File file = (File) getItem(position);
             String fileName = file.getName();
 
