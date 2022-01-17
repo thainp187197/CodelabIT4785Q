@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4981481481481482" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/drawable/ic_baseline_back_folder_24.xml" value="0.4981481481481482" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/drawable/ic_baseline_folder_24.xml" value="0.4981481481481482" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/drawable/ic_folder_background.xml" value="0.4981481481481482" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/drawable/ic_folder_foreground.xml" value="0.4981481481481482" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4981481481481482" />
         <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/layout/activity_info.xml" value="0.5" />
         <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/layout/activity_text_file.xml" value="0.30570652173913043" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/layout/file_list_view.xml" value="0.5" />
         <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/layout/user_basic_view.xml" value="0.5" />
+        <entry key="..\:/Users/cornf/Source/Android/Projects/CodelabIT4785Q/app/src/main/res/mipmap-anydpi-v26/ic_folder.xml" value="0.4981481481481482" />
       </map>
     </option>
   </component>
